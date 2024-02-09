@@ -1,5 +1,5 @@
 
-html {
+body#homepage {
   margin: 0;
   padding: 0;
   background-image: url('images/2102.i518.009_sky_cloud_evening_illustration.jpg');
@@ -7,6 +7,7 @@ html {
   background-position: center;
   background-attachment: fixed;
 }
+
 
 
 .container {
