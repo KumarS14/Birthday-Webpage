@@ -8,7 +8,13 @@ html {
 }
 html#about{
   background-image: url('images/milk-and-mocha-bears-eating-strawberries-05qk1p43frl86aw4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
+
 .container {
   width: 90%; /* Adjust container width */
   max-width: 800px; /* Maximum width, adjust as needed */
