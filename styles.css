@@ -8,79 +8,66 @@ html {
 }
 
 .container {
-  /* Your container styles */
-  width: 100%; /* Full width */
-  max-width: 1200px; /* Maximum width, adjust as needed */
-  margin: 0 auto; /* Center the container */
-  padding: 20px; /* Example padding */
-}
-
-/* Media queries for tablet and mobile */
-@media (max-width: 1024px) {
-  .container {
-      padding: 15px; /* Adjust padding for tablet */
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-      padding: 10px; /* Adjust padding for mobile */
-  }
+  width: 90%; /* Adjust container width */
+  max-width: 800px; /* Maximum width, adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h1 {
-  font-family: 'gelato-luxe', sans-serif; /* Use a common font for better compatibility */
-  font-size: 100px; /* Adjust size as needed */
-  font-weight: 400; /* Make the title bold */
-  color: #ff0080ea; /* Use vibrant pink color */
-  font-style: normal;
+  font-family: 'gelato-luxe', sans-serif;
+  font-size: 5vw; /* Adjust size based on viewport width */
+  font-weight: 400;
+  color: #ff0080ea;
   text-align: center;
   text-shadow: 1px 1px 2px black;
-  
 }
+
 .info-box {
   display: none;
-  position: fixed;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #8F60A8; /*#f60980d4;/* /* Set background color to pink */
-  padding: 20px 60px 80px; /* Adjust padding for a bigger box and move title towards the top */
+  position: relative; /* Change position to relative */
+  margin: 20px auto; /* Add margin for spacing */
+  background-color: #8F60A8;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  z-index: 9999;
-  width: 40%; /* Fill 60% of the viewport width */
-  height: 60%; /* Limit box height to 95% of the viewport height */
-  overflow: auto; /* Enable scrolling if content exceeds box dimensions */
-  text-align: center; /* Center text horizontally */
-  display: flex; /* Use flexbox for vertical alignment */
-  flex-direction: column; /* Arrange children in a column */
-  justify-content: flex-start; /* Align items towards the start (top) */
+  text-align: center;
 }
-
-.info-box.show {
-  display: block;
-  animation: fadeIn 2s ease-in-out forwards; /* Adjust animation duration */
-}
-
-/* Your existing CSS styles here */
 
 .info-box h2 {
-  margin-top: 0; /* Remove default margin */
-  color: #ff0080ea; /* Set title color to pink */
-  text-shadow: 0.7px 0.7px 0.7px black; /* Add faint black outline */
-  font-family: 'gelato-luxe', sans-serif; /* Change to your desired font */
-  font-size: 55px;
+  margin-top: 0;
+  color: #ff0080ea;
+  text-shadow: 0.7px 0.7px 0.7px black;
+  font-family: 'gelato-luxe', sans-serif;
+  font-size: 3vw; /* Adjust size based on viewport width */
 }
+
 .info-box ul {
-  margin-top: 0; /* Remove default margin */
-  color: #ff0080ea; /* Set title color to pink */
-  text-shadow: 0.5px 0.5px 0.5px black; /* Add faint black outline */
-  font-family: 'chill-script', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 35px;
+  padding: 0;
+  list-style-type: none; /* Remove default list styles */
 }
+
+.info-box li {
+  margin-bottom: 10px; /* Add spacing between list items */
+  font-family: 'chill-script', sans-serif;
+  font-size: 2vw; /* Adjust size based on viewport width */
+}
+
+/* Media queries for tablet and mobile */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 7vw;
+  }
+  
+  .info-box {
+    width: 90%; /* Adjust box width */
+  }
+}
+
 
 
 
