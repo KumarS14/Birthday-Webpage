@@ -1,3 +1,12 @@
+html#about {
+  background-image: url('/images/about_img.jpg');
+  background-size: cover; /* Adjust the background size property */
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
 html {
   margin: 0;
   padding: 0;
@@ -6,25 +15,21 @@ html {
   background-position: center;
   background-attachment: fixed;
 }
-html#about{
-  background-image: url('images/milk-and-mocha-bears-eating-strawberries-05qk1p43frl86aw4.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-}
+
 
 .container {
-  width: 90%; /* Adjust container width */
-  max-width: 800px; /* Maximum width, adjust as needed */
+  width: 90%;
+  /* Adjust container width */
+  max-width: 800px;
+  /* Maximum width, adjust as needed */
   margin: 0 auto;
   padding: 20px;
 }
 
 h1 {
   font-family: 'gelato-luxe', sans-serif;
-  font-size: 5vw; /* Adjust size based on viewport width */
+  font-size: 5vw;
+  /* Adjust size based on viewport width */
   font-weight: 400;
   color: #ff0080ea;
   text-align: center;
@@ -32,9 +37,12 @@ h1 {
 }
 
 .info-box {
-  display: block; /* Change display property to block */
-  position: relative; /* Change position to relative */
-  margin: 20px auto; /* Add margin for spacing */
+  display: block;
+  /* Change display property to block */
+  position: relative;
+  /* Change position to relative */
+  margin: 20px auto;
+  /* Add margin for spacing */
   background-color: #8F60A8;
   padding: 20px;
   border-radius: 10px;
@@ -47,18 +55,22 @@ h1 {
   color: #ff0080ea;
   text-shadow: 0.7px 0.7px 0.7px black;
   font-family: 'gelato-luxe', sans-serif;
-  font-size: 3vw; /* Adjust size based on viewport width */
+  font-size: 3vw;
+  /* Adjust size based on viewport width */
 }
 
 .info-box ul {
   padding: 0;
-  list-style-type: none; /* Remove default list styles */
+  list-style-type: none;
+  /* Remove default list styles */
 }
 
 .info-box li {
-  margin-bottom: 10px; /* Add spacing between list items */
+  margin-bottom: 10px;
+  /* Add spacing between list items */
   font-family: 'chill-script', sans-serif;
-  font-size: 2vw; /* Adjust size based on viewport width */
+  font-size: 2vw;
+  /* Adjust size based on viewport width */
 }
 
 /* Media queries for tablet and mobile */
@@ -66,16 +78,13 @@ h1 {
   .container {
     padding: 10px;
   }
-  
+
   h1 {
     font-size: 7vw;
   }
-  
+
   .info-box {
-    width: 90%; /* Adjust box width */
+    width: 90%;
+    /* Adjust box width */
   }
 }
-
-
-
-
