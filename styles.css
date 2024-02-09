@@ -6,7 +6,9 @@ html {
   background-position: center;
   background-attachment: fixed;
 }
-
+html#about{
+  background-image: url('/images/about_img.jpg');
+}
 .container {
   width: 90%; /* Adjust container width */
   max-width: 800px; /* Maximum width, adjust as needed */
