@@ -1,8 +1,16 @@
-
-body#homepage {
+html#homepage {
   margin: 0;
   padding: 0;
   background-image: url('images/2102.i518.009_sky_cloud_evening_illustration.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+html#about {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/pink-sky-background-with-crescent-moon.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -58,7 +66,7 @@ h1 {
   /* Remove default list styles */
 }
 
-.info-box li {
+.info-box  {
   margin-bottom: 10px;
   /* Add spacing between list items */
   font-family: 'chill-script', sans-serif;
