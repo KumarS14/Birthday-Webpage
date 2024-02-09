@@ -1,3 +1,4 @@
+/* Base styles for all screen sizes */
 html {
   margin: 0;
   padding: 0;
@@ -24,7 +25,7 @@ h1 {
 }
 
 .info-box {
-  display: block;
+  display: none;
   position: relative; /* Change position to relative */
   margin: 20px auto; /* Add margin for spacing */
   background-color: #8F60A8;
@@ -60,15 +61,23 @@ h1 {
   }
   
   h1 {
-    font-size: 7vw;
+    font-size: 7vw; /* Increase font size for h1 on mobile */
   }
-  
+
   .info-box {
     width: 90%; /* Adjust box width */
+    padding: 30px; /* Increase padding for better spacing */
+  }
+
+  .info-box h2 {
+    font-size: 6vw; /* Increase title font size for better readability */
+  }
+
+  .info-box li {
+    margin-bottom: 15px; /* Increase spacing between list items */
+    font-size: 4vw; /* Increase font size for list items */
   }
 }
-
-
 
 
   
