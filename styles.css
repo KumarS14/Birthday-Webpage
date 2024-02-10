@@ -97,3 +97,23 @@ h1 {
     /* Adjust box width */
   }
 }
+.info-box img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media queries for tablet and mobile */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  .info-box {
+    width: 90%;
+    /* Adjust box width */
+  }
+}
